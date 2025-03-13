@@ -48,12 +48,21 @@ const Hero = () => {
   
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
-      {/* Background with subtle gradient and texture */}
+      {/* Background with game development theme - overlay multiple images */}
       <div className="absolute inset-0 bg-gradient-to-b from-background to-secondary/10">
         <div
           ref={backgroundRef}
-          className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center opacity-10 scale-110"
+          className="absolute inset-0 opacity-10 scale-110"
+          style={{
+            background: `
+              linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=1600&auto=format&fit=crop') right center / cover no-repeat,
+              url('https://images.unsplash.com/photo-1466442929976-97f336a657be?q=80&w=1600&auto=format&fit=crop') left center / cover no-repeat
+            `,
+            backgroundBlendMode: 'overlay',
+          }}
         />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
       </div>
       
       {/* Content */}
