@@ -70,7 +70,7 @@ const Hero = () => {
             data-animate
             className="text-balance mb-6"
           >
-            Crafting <span className="text-primary">Immersive</span> Gaming Experiences
+            You will love playing with <span className="text-primary">Nakhla</span> Games
           </h1>
           
           <p 
