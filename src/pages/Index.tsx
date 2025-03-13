@@ -17,7 +17,8 @@ const newsItems = [
     excerpt: 'Our studio is excited to reveal our upcoming game that will take players on an unforgettable adventure.',
     imageUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?q=80&w=800&auto=format&fit=crop',
     date: 'June 15, 2023',
-    author: 'Sarah Johnson'
+    author: 'Sarah Johnson',
+    category: 'Announcement'
   },
   {
     id: '2',
@@ -25,7 +26,8 @@ const newsItems = [
     excerpt: 'Get an exclusive look at the development process of our latest racing game.',
     imageUrl: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=800&auto=format&fit=crop',
     date: 'May 22, 2023',
-    author: 'Michael Chen'
+    author: 'Michael Chen',
+    category: 'Development'
   },
   {
     id: '3',
@@ -33,7 +35,8 @@ const newsItems = [
     excerpt: 'Our team will be presenting at the Game Developers Conference this year. Come meet us!',
     imageUrl: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&w=800&auto=format&fit=crop',
     date: 'April 8, 2023',
-    author: 'David Rodriguez'
+    author: 'David Rodriguez',
+    category: 'Event'
   }
 ];
 
