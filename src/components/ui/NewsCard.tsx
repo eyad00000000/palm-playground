@@ -8,9 +8,10 @@ interface NewsCardProps {
   imageUrl: string;
   date: string;
   author: string;
+  category?: string;
 }
 
-const NewsCard = ({ id, title, excerpt, imageUrl, date, author }: NewsCardProps) => {
+const NewsCard = ({ id, title, excerpt, imageUrl, date, author, category }: NewsCardProps) => {
   return (
     <Link to={`/news/${id}`} className="group block">
       <article className="overflow-hidden glass-card transition-all duration-300 hover:shadow-xl">
@@ -20,6 +21,13 @@ const NewsCard = ({ id, title, excerpt, imageUrl, date, author }: NewsCardProps)
             alt={title} 
             className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
           />
+          {category && (
+            <div className="absolute top-4 left-4">
+              <span className="px-3 py-1 text-xs font-medium bg-primary/90 text-white rounded-full">
+                {category}
+              </span>
+            </div>
+          )}
         </div>
         <div className="p-6">
           <div className="flex items-center text-sm text-muted-foreground mb-3">

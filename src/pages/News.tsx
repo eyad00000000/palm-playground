@@ -54,7 +54,7 @@ const News = () => {
     {
       id: '5',
       title: 'Emerald Forest Receives Game of the Year Nomination',
-      excerpt: 'We're honored to announce that Emerald Forest has been nominated for Game of the Year.',
+      excerpt: "We're honored to announce that Emerald Forest has been nominated for Game of the Year.",
       content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl. Nullam euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl.',
       imageUrl: 'https://images.unsplash.com/photo-1518495973542-4542c06a5843?q=80&w=800&auto=format&fit=crop',
       date: 'February 28, 2023',

@@ -49,7 +49,7 @@ const featuredGames = [
   {
     id: '6',
     title: 'Sahara Survival',
-    description: 'Test your survival skills in this challenging adventure through the world's most dangerous desert.',
+    description: "Test your survival skills in this challenging adventure through the world's most dangerous desert.",
     imageUrl: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=800&auto=format&fit=crop',
     category: 'Survival'
   }
